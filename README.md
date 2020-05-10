@@ -1,2 +1,3 @@
-# loyalty-token-using-hlf
-This project is to make a platform where a manufacturer can reward it's customer with loyalty point.
+# Supply-Chain-HLF-Platform
+
+This projects keeps track record of any product starting from manufacturer to customer.
