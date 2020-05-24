@@ -29,6 +29,7 @@ This platform is to allow manufacturer(P&G here) directly award their cusomter f
 | UI 					 | React			| latest
 |       | Rinkeby |
 
+_____________________________________________________________________________________________________________________________
 ## Steps to replicate locally
 
 1. Clone this repository
@@ -50,6 +51,7 @@ They are hyperledger fabric 1.4.6, golang, docker, docker-composer, node,  pytho
 ### Step 3. Start the fabric network using shell script
 
 `chmod 777 operate.sh`
+
 `sudo ./operate.sh up`
 
 When you run a script, the following things happen in order:
