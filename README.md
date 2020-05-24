@@ -2,9 +2,13 @@
 
 This platform is to allow manufacturer(P&G here) directly award their cusomter for being a loyal cusomters and customers can redeem those tokens at any of the retailer's store associated with the manufacturer.
 
-## Usecase digram
+## Use Case digram
+
+![Use  case diagram](https://user-images.githubusercontent.com/24249646/82753965-8570f480-9de7-11ea-9e11-e1f6b3ed5dd3.jpg)
 
 ## Flow diagram
+
+![FLOW DIAGRAM COMPONENTS](https://user-images.githubusercontent.com/24249646/82753974-91f54d00-9de7-11ea-90d5-8547da772015.jpg)
 
 1. Blockchain operator setup the private blockchain network having 3 organizations, 3 certificate authorities and 1 channel.
 2. The end user ( admin, user, consumer ) interacts with ReactJS UI for register, update , grant tokens and reedem tokens.
@@ -111,3 +115,12 @@ After testing is done or an error occurs or to stop the network, go to `loyalty-
 `sudo teardown.sh`
 
 ____________________________________________________________________________________________________________________________
+## About the fabric private blockchain network
+
+### Network and channel architecture
+
+![Network    Channel Architecture(1)](https://user-images.githubusercontent.com/24249646/82753981-9cafe200-9de7-11ea-835c-3e78b3dd8c2c.jpg)
+
+### Ledger Structs Relationship
+
+![Blockchain  Components Structure(1)](https://user-images.githubusercontent.com/24249646/82754010-c10bbe80-9de7-11ea-9b85-9864315eb395.jpg)
