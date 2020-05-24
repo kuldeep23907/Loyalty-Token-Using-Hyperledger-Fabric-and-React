@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 `cd loyalty-token-using-hlf`
 
-### Step 2. Install required softwares 
+### Step 2. Install required softwares (if you already have all this with proper versions, please skip). Also this will take few minutes.
 
 They are hyperledger fabric 1.4.6, golang, docker, docker-composer, node,  python3
 
