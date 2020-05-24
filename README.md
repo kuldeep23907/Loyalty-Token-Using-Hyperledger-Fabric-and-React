@@ -31,7 +31,6 @@ This platform is to allow manufacturer(P&G here) directly award their cusomter f
 | Language				 | Go		| 1.11
 | Node 					 | node		| 10.20
 | UI 					 | React			| latest
-|       | Rinkeby |
 
 _____________________________________________________________________________________________________________________________
 ## Steps to replicate locally
