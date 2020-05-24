@@ -54,6 +54,8 @@ function App(props) {
 
           <AuthenticateRoute exact path="/consumer" component={Consumer} title='Welcome Consumer' store={Store} />
 
+          <Route path="/" component={() => <Login />} />
+
           <Redirect to='/404'></Redirect>
         </Switch>
       </Router>
