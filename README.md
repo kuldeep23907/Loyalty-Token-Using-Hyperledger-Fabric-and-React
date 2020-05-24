@@ -25,7 +25,7 @@ This platform is to allow manufacturer(P&G here) directly award their cusomter f
 
 
 | System | Driver | Version
-| --- | --- |
+| --- | --- | --- |
 | Platform 						 | Hyperledger Fabric | 1.4.6
 | Docker | Docker	| 18.09.09
 | Language				 | Go		| 1.11
