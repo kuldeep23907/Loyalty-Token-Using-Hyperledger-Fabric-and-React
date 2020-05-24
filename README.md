@@ -51,6 +51,14 @@ ________________________________________________________________________________
 
 They are hyperledger fabric 1.4.6, golang, docker, docker-composer, node,  python3
 
+`chmod 777 prepare.sh`
+
+`sudo ./prepare.sh light`
+
+`source environment`
+
+If it fails, please install all the above mentioned software by refrerring to file prepare.sh one by one. Without this, we will not be able to test the application.
+
 ### Step 3. Start the fabric network using shell script
 
 `chmod 777 operate.sh`
