@@ -107,7 +107,7 @@ For more details, see the contents of the operate.sh file.
 
 `npm start run`
 
-Now everything is setup and testing could be started. Go to `http://localhost:3000` to see the client app running. Please refer to demo video link here to proceed: 
+Now everything is setup and testing could be started. Go to `http://localhost:3000` to see the client app running. Use `id: admin and password: adminpw` for admin login to start the flow. Please refer to demo video link here to proceed: 
 
 ## Stop the network 
 
