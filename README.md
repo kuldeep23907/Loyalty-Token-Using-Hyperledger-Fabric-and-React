@@ -1,6 +1,6 @@
 # A LOYALTY PLATFORM APPLICATION USING HYPERLEDGER FABRIC
 
-This platform is to allow manufacturer(P&G here) directly award their cusomter for being a loyal cusomters and customers can redeem those tokens at any of the retailer's store associated with the manufacturer.
+This platform is to allow manufacturer(P&G here) directly award their customer for being a loyal customers and customers can redeem those tokens at any of the retailer's store associated with the manufacturer.
 
 ## Use Case digram
 
