@@ -1,6 +1,6 @@
 # A LOYALTY PLATFORM APPLICATION USING HYPERLEDGER FABRIC
 
-This platform is to allow manufacturer(P&G here) directly award their cusomter for being a loyal cusomters and customers can redeem those tokens at any of the retailer's store associated with the manufacturer.
+This platform is to allow manufacturer(P&G here) directly award their customer for being a loyal customers and customers can redeem those tokens at any of the retailer's store associated with the manufacturer.
 
 ## Use Case digram
 
@@ -107,7 +107,7 @@ For more details, see the contents of the operate.sh file.
 
 `npm start run`
 
-Now everything is setup and testing could be started. Go to `http://localhost:3000` to see the client app running. Use `id: admin and password: adminpw` for admin login to start the flow. Please refer to demo video link here to proceed: 
+Now everything is setup and testing could be started. Go to `http://localhost:3000` to see the client app running. Use `id: admin and password: adminpw` for admin login to start the flow. Please refer to demo video link here to proceed: https://www.youtube.com/watch?v=olDkOoSwx44&t=386s
 
 ## Stop the network 
 
