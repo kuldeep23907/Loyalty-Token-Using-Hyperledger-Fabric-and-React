@@ -26,7 +26,7 @@ const RedeemToken = (props) => {
 
     const fetchEntityDataAction = () => {
         let token = localStorage.getItem("token");
-        fetch("http://192.168.43.54:8090/auth/consumers/middlemen", {
+        fetch("http://localhost:8090/auth/consumers/middlemen", {
             method: "GET",
             headers: {
                 "x-access-token": token,
@@ -65,7 +65,7 @@ const RedeemToken = (props) => {
 
     const redeemToken = () => {
         let token = localStorage.getItem('token');
-        let url = "http://192.168.43.54:8090/token/redeem-token/middlemen";
+        let url = "http://localhost:8090/token/redeem-token/middlemen";
         fetch(url, {
             method: "POST",
             headers: {

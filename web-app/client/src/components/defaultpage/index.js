@@ -23,7 +23,7 @@ const Dashboard = (props) => {
 
   const fetchUserDataAction = () => {
     let token = localStorage.getItem('token');
-    fetch('http://192.168.43.54:8090/entities/Entity1', {
+    fetch('http://localhost:8090/entities/Entity1', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',

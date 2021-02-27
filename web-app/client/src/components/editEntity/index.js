@@ -24,7 +24,7 @@ const EditEntity = (props) => {
 
     const fetchEntityDataAction = () => {
         let token = localStorage.getItem("token");
-        fetch("http://192.168.43.54:8090/entities", {
+        fetch("http://localhost:8090/entities", {
             method: "GET",
             headers: {
                 "x-access-token": token,
@@ -53,7 +53,7 @@ const EditEntity = (props) => {
 
     const editEntity = () => {
         let token = localStorage.getItem('token');
-        let url = "http://192.168.43.54:8090/entities/" + currentId;
+        let url = "http://localhost:8090/entities/" + currentId;
         fetch(url, {
             method: "PUT",
             headers: {

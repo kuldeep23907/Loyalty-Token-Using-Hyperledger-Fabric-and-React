@@ -31,7 +31,7 @@ const Login = (props) => {
       || type === 'distributor'
       ? 'middlemen' : type;
 
-    fetch('http://192.168.43.54:8090/auth/tokens/' + toPost, {
+    fetch('http://localhost:8090/auth/tokens/' + toPost, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

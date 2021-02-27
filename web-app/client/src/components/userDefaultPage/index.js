@@ -25,7 +25,7 @@ const UserDashboard = (props) => {
         let token = localStorage.getItem('token');
         let entityId = localStorage.getItem('entity-id');
         let entityType = localStorage.getItem('entity-type');
-        fetch('http://192.168.43.54:8090/user/' + entityType + '/entities/' + entityId, {
+        fetch('http://localhost:8090/user/' + entityType + '/entities/' + entityId, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',

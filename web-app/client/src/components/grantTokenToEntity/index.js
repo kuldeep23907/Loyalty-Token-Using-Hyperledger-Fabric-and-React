@@ -26,7 +26,7 @@ const GrantTokenToEntity = (props) => {
     const fetchEntityDataAction = () => {
         let token = localStorage.getItem("token");
         let entityType = localStorage.getItem("entity-type");
-        fetch("http://192.168.43.54:8090/user/" + entityType + "/entities", {
+        fetch("http://localhost:8090/user/" + entityType + "/entities", {
             method: "GET",
             headers: {
                 "x-access-token": token,
@@ -91,7 +91,7 @@ const GrantTokenToEntity = (props) => {
         let token = localStorage.getItem('token');
         let entityType = localStorage.getItem("entity-type");
 
-        let url = "http://192.168.43.54:8090/token/grant-token/entity/" + entityType;
+        let url = "http://localhost:8090/token/grant-token/entity/" + entityType;
         fetch(url, {
             method: "POST",
             headers: {

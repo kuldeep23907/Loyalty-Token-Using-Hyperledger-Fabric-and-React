@@ -18,7 +18,7 @@ const CreateEntity = (props) => {
     console.log("add new movie", externalId, type, earnRate);
     let values = { externalId: externalId, type: type, earnRate: earnRate };
     let token = localStorage.getItem('token');
-    let url = "http://192.168.43.54:8090/entities";
+    let url = "http://localhost:8090/entities";
     fetch(url, {
       method: "POST",
       headers: {

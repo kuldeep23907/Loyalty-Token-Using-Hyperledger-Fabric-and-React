@@ -26,7 +26,7 @@ const EditConsumer = (props) => {
 
     const fetchEntityDataAction = () => {
         let token = localStorage.getItem("token");
-        fetch("http://192.168.43.54:8090/auth/consumers/manufacturer", {
+        fetch("http://localhost:8090/auth/consumers/manufacturer", {
             method: "GET",
             headers: {
                 "x-access-token": token,
@@ -56,7 +56,7 @@ const EditConsumer = (props) => {
     const editEntity = () => {
         let token = localStorage.getItem('token');
         let entityType = localStorage.getItem('entity-type');
-        let url = "http://192.168.43.54:8090/auth/users/" + entityType + "/" + currentId;
+        let url = "http://localhost:8090/auth/users/" + entityType + "/" + currentId;
         fetch(url, {
             method: "PUT",
             headers: {

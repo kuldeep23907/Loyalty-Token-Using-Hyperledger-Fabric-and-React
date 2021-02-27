@@ -50,7 +50,7 @@ const ListEntityUser = (props) => {
 
     const fetchUserDataAction = () => {
         let token = localStorage.getItem("token");
-        fetch("http://192.168.43.54:8090/auth/users/manufacturer", {
+        fetch("http://localhost:8090/auth/users/manufacturer", {
             method: "GET",
             headers: {
                 "x-access-token": token,

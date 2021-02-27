@@ -25,7 +25,7 @@ const CustomerDashboard = (props) => {
         let token = localStorage.getItem('token');
         let id = localStorage.getItem('id');
         let entityType = localStorage.getItem('entity-type');
-        fetch('http://192.168.43.54:8090/auth/consumer/consumer/' + id, {
+        fetch('http://localhost:8090/auth/consumer/consumer/' + id, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',

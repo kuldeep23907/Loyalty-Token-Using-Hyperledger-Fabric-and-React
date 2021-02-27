@@ -25,7 +25,7 @@ const CreateConsumer = (props) => {
         let token = localStorage.getItem('token');
         let entityUserId = localStorage.getItem('id');
         let entityId = localStorage.getItem('entity-id');
-        let url = "http://192.168.43.54:8090/auth/consumers/consumer";
+        let url = "http://localhost:8090/auth/consumers/consumer";
         fetch(url, {
             method: "POST",
             headers: {

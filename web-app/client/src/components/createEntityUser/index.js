@@ -26,7 +26,7 @@ const CreateEntityUser = (props) => {
 
     const fetchEntityDataAction = () => {
         let token = localStorage.getItem("token");
-        fetch("http://192.168.43.54:8090/entities", {
+        fetch("http://localhost:8090/entities", {
             method: "GET",
             headers: {
                 "x-access-token": token,
@@ -59,7 +59,7 @@ const CreateEntityUser = (props) => {
             || entityType === 'retailer'
             || entityType === 'distributor'
             ? 'middlemen' : 'manufacturer';
-        let url = "http://192.168.43.54:8090/auth/users/" + toPost;
+        let url = "http://localhost:8090/auth/users/" + toPost;
         fetch(url, {
             method: "POST",
             headers: {
